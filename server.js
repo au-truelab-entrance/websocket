@@ -1,4 +1,5 @@
-const PORT = 3005;
+require("dotenv").config();
+const PORT = process.env.PORT;
 
 const express = require("express");
 const { createServer } = require("node:http");
